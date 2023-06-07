@@ -3,7 +3,7 @@
     body{
         width: 100vw;
     }
-    .header{
+    header{
         width: 100vw;
     }
     .header-wrapper {
@@ -29,8 +29,9 @@
     }
     .torso{
         justify-content: space-evenly;
-        width: 100vw;
-        margin: auto;
+        width: 99vw;
+        margin-right: 0px;
+        margin-left: 0px;
     }
     .article-title{
         width: 70vw;
@@ -98,6 +99,9 @@
         width: 16.875vw;
         font-size: 0.937vw;
     }
+    .visually-hidden{
+        margin:auto;
+      }
     .tags-list{
         width: 16.875vw;
     }
@@ -112,7 +116,14 @@
         font-size: 0.937vw;
     }
     .shop{
-        width: 100vw;
+        width: 99vw;
+        
+    }
+    .tablet-photo{
+        display: none;
+    }
+    .mobile-photo{
+        display: none;
     }
     .shop-photo{
         width: 18.75vw;
@@ -127,7 +138,9 @@
         width: 4.125vw;
     }
     .shop-list{
-        width: 100vw;
+        width: 90vw;
+        margin: 0;
+        margin-left: 135px;
     }
     .shop-item{
         width: 22vw;

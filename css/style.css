@@ -1,8 +1,8 @@
 body {
     margin: auto;
     font-family: "OpenSans", sans-serif;
-    font-size: 16px;
-    width: 1660px;
+    font-size: 16px;    
+    width: 100vw;
   }
   .full{
     position: absolute;
@@ -25,10 +25,12 @@ body {
     color: black;
   }
   header {
+    width: 99%;
     background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
     background-size: cover;
     background-color: black;
     position: relative;
+    margin: 0;
   }
   header::before {
     content: "";
@@ -43,8 +45,8 @@ body {
   }
   .header-wrapper {
     width: 1200px;
-    margin: auto;
-    padding: 0 15px;
+    
+    
   }
   .header-navigation {
     display: flex;
@@ -136,7 +138,7 @@ body {
     display: none;
   }
   .trends{
-    height: 440px;
+    height: auto;
     margin-top: 60px;
   }
   .trends-title{
@@ -166,9 +168,8 @@ body {
 }
 .post{
   display:flex;
-  width: 25%;    
-  height: 320px;
-  margin-right: 4px;
+  width: 24.5vw; 
+  height: auto;
 }
 
 .post:nth-child(1n){
@@ -176,6 +177,7 @@ body {
   background-size: cover;
   background-color: black;
   position: relative;
+  margin-right: 4px;
 }
 
 .post:nth-child(2n){
@@ -183,6 +185,7 @@ body {
   background-size: cover;
   background-color: black;
   position: relative;
+  margin-right: 4px;
 }
 
 .post:nth-child(3n){
@@ -190,6 +193,7 @@ body {
   background-size: cover;
   background-color: black;
   position: relative;
+  margin-right: 4px;
 }
 
 .post:nth-child(4n){
@@ -197,6 +201,7 @@ body {
   background-size: cover;
   background-color: black;
   position: relative;
+  margin-right: 0px;
 }
 .post::before {
   content: "";
@@ -242,8 +247,8 @@ body {
 
   .torso {
     display: flex;
-    width: 1170px;
-    margin: auto;
+    width: 99vw;
+    margin: 0;
     justify-content: space-between;
   }
   .torso {
@@ -252,7 +257,7 @@ body {
   
   .torso::after,
   .torso::before {
-    box-sizing: border-box;
+    
   }
   
   .all-posts {
@@ -261,7 +266,7 @@ body {
   .posts {
     display: flex;
     width: 770px;
-    height: 295px;
+    height: auto;
     margin-top: 60px;
   }
   .photo {
@@ -563,7 +568,8 @@ body {
 .shop{
   margin-top: 64px;
   margin-bottom: 64px;
-  width: 100%;
+  width: 99%;
+
 }
 .shop-titel{
   margin-left: auto;
@@ -588,8 +594,8 @@ body {
   margin-bottom: 30px;
 }
 .shop-list{
-  margin: auto;
-  width: 100%;
+  margin: 0;
+  width: 95vw;
   justify-content: center;
   display: flex;
 }

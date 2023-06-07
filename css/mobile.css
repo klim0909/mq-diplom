@@ -39,7 +39,15 @@
     .trend-title{
         font-size: 2.96vw;
     }
+    .tablet-photo{
+        display: none;
+    }
+    .desk-photo{
+        display: none;
+    }
 }
+
+
 @media(max-width: 639px){
     body{
         margin: 0;
@@ -245,6 +253,9 @@
       .posts-search-button{
         width: 13.88vw;
       }
+      .visually-hidden{
+        margin:auto;
+      }
       .search-photo{
         width: 5.27vw;
       }
@@ -277,6 +288,13 @@
     .shop{
         width: 100vw;
     }
+    .tablet-photo{
+        display: none;
+    }
+    .desk-photo{
+        display: none;
+    }
+
     .shop-titel{
         font-size: 4.44vw;
     }
@@ -302,7 +320,7 @@
         margin-right: 20px;
         margin-left: -30px;
         padding-left: 26px;
-        height: 37.14vh;
+        
         
    }
    .price{
@@ -331,7 +349,7 @@
 
 
     footer{
-        width: 91.66vw;
+        width: 97vw;
         margin-right: auto;
         margin-left: auto;
     }
